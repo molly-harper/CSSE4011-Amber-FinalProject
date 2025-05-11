@@ -3,7 +3,6 @@
 ## Senario
 Rural locations often have limited or unreliable internet connectivity, making data transfer difficult. In critical applications like healthcare, poor connectivity can delay the transmission of patient data, making it harder to detect emergencies or provide timely medical interventions. 
 
-
 Rural village with limited internet connectivity, elderly patients wear small, low-power health monitoring devices that track vital signs such as heart rate, blood oxygen levels, and body temperature throughout the day. A community nurse, acting as a mobile data mule, visits the homes daily with a portable device that wirelessly collects the stored data from each patient's wearable. Once the nurse returns to a connected health center, the data is uploaded to a central server where medical staff can review it, identify any health risks, and make informed care decisions. This system enables continuous, low-cost health monitoring without relying on constant internet access.
 
 ## Project Description 

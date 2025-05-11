@@ -6,27 +6,28 @@
 ## Project Description
 
 ## Requirements of the task
-**Requirement:**
+- **Requirement:**
 Atleast 1 sensor other than temperature or light 
-**How we have met this requirement:**
 
-**Requirement:**
+    **How we have met this requirement:**
+
+- **Requirement:**
 Atleast 1 actuator
 
-**How we have met this requirement:**
+    **How we have met this requirement:**
 
-**Requirement:**
+- **Requirement:**
  Non-trivial wireless networkinf or IoT-based protocols with multiple nodes
 
-**How we have met this requirement:**
+    **How we have met this requirement:**
 
-**Requirement:**
+- **Requirement:**
 Techniques/methods and non-trivial algorithms from lectures
 
-**How we have met this requirement**
+    **How we have met this requirement**
 
-**Requirement:**
+- **Requirement:**
 Web dashboard and/or a non-trivial visualisation of sensor data as a PC/Mobile App
 
-**How we have met this requirement** 
+    **How we have met this requirement** 
 
