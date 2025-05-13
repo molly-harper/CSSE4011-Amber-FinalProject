@@ -5,9 +5,9 @@ These are all the things required for the milestone, as per the criteria. Once c
 - [x] Project description
     - [x] Project description
     - [x] Project Senario
-- [] Project Block Diagram 
-    - [] Block diagram of the system
-    - [] Top-level flow chart of software
+- [x] Project Block Diagram 
+    - [x] Block diagram of the system
+    - [x] Top-level flow chart of software
 - [x] DIKW Pyramid Abstraction
     - [x] Provide a senario in which the system can operate
     - [x] What pyramid layers can your stsem contribute to
