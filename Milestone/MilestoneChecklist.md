@@ -11,10 +11,10 @@ These are all the things required for the milestone, as per the criteria. Once c
 - [x] DIKW Pyramid Abstraction
     - [x] Provide a senario in which the system can operate
     - [x] What pyramid layers can your stsem contribute to
-- [] System Integration 
-    - [] Explain what sensors are used 
+- [] Sensor Integration 
+    - [x] Explain what sensors are used 
     - [] Explain what type of data is required
-    - [] Explain how the sensors are integrated
+    - [x] Explain how the sensors are integrated
 - [] Wireless Network Communications 
     - [] Explain the network topology or IoT protocols 
     - [] What protocols are used and how 
