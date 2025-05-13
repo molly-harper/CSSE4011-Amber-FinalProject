@@ -4,7 +4,7 @@
 - Noah Trevena
 - Tafadzwa Chimwe
 ## Project Description
-This project implements data muling to reduce the ocmplication of data transmission. Patients are equiped with health monitoring devices that track vital signs such as heart rate, blood oxygen levels, and body temperature throughout the day. A health professional acts as a mobile data mule, visits the homes daily with a portable device that wirelessly collects the stored data from each patient. Once the healthcare worker returns to a connected health center (base node), the data is uploaded where it can be analysed to make informed healthcare decisions. This system enables continuous, low-cost health monitoring without relying on constant internet access.
+This project implements data muling to reduce the ocmplication of data transmission. Patients are equiped with health monitoring devices that track vital signs such as heart rate, blood oxygen levels, and body temperature throughout the day. A mobile data mule, visits the stationary node with a portable device that wirelessly collects the stored data from each patient. Once the mobile node retunrs to the base node, the data is uploaded where it can be analysed to make informed healthcare decisions. This system enables continuous, low-cost health monitoring without relying on constant internet access.
 
 ## Requirements of the task
 - **Requirement:**
