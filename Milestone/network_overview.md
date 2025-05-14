@@ -19,7 +19,7 @@ A python script will run and read all the relevant information from the base nod
 - Example data might look like:
 P01,HR=75,SpO2=98,Temp=36.7,CO=0.03
 
--  #### A python script for json conversion then might produce data like:
+- A python script for json conversion then might produce data like:
 
 - **Example JSON conversion output:**
 ```json
@@ -35,7 +35,7 @@ P01,HR=75,SpO2=98,Temp=36.7,CO=0.03
 ## Integration with Grafana:
 
 
-The JSON packets are sent to a time-series database (e.g., **InfluxDB**, **Prometheus**, or **SQLite** with a backend).
+The JSON packets are sent to a time-series database such as **InfluxDB**, **Prometheus**, or **SQLite** with a backend.
 
 Grafana reads from the database and presents real-time dashboards with:
 
