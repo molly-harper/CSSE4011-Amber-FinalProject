@@ -19,7 +19,7 @@ These are all the things required for the milestone, as per the criteria. Once c
     - [] Explain the network topology or IoT protocols 
     - [] What protocols are used and how 
     - [] What sort of data rate is required
-    - [] Message protocol diagram
+    - [x] Message protocol diagram
 - [] Deliverables and KPIs
     - [x] Deliverable 1 and KPIs
     - [x] Deliverable 2 and KPIs
