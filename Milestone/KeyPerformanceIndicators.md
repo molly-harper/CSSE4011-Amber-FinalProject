@@ -44,4 +44,36 @@
     - **How to measure:** 
     - **Why:** More data allows for more accurate trends to be identified and therefore provides a better resource for identifying medical issues
 
+## 4. Sensor Data Filtering with Kalman Filter
+**KPIs**
+- **Variance Reduction**
+    - **What:** Reduces the amount of noise in sensor readings  
+    - **How to measure:** Compare the variance of raw sensor data verses filtered sensor data  
+    - **Why:** Lower variance means a more accurate reading and reduces the production of false alerts  
+
+- **Improved alert accuracy**
+    - **What:** Increase the rate of true alert detections and reduce the rate of false positives  
+    - **How to measure:** Record the number of correct alerts before and after sensor data filtering  
+    - **Why:** Patients are more trusting in equipment if they know true alerts will be detected more often  
+
+- **Consistency across environments**
+    - **What:** Make sure that the affect of changing environments such as indoor verse outside or fan cooled rooms verse air con cooled rooms doesnt cause too many errors  
+    - **How to measure:** Collect sensor data from multiple environments and compare the spikes in filtered verse raw sensor data  
+    - **Why:** A consistent device improves usability and puts patients at ease  
+
+## 5. Data Display and Visualisation on Web Dashboard
+**KPIs**
+- **Real Time Data Display**
+    - **What:** Ensure that the data is displayed in real time and is accurate
+    - **How to measure:** Compare the displayed data to the raw data every minute during a testing period
+    - **Why:** Accurate visual representation of data is importation for patients and medical decisions
+- **Data Visualisation**
+    - **What:** The data is displayed in a way that is easy to understand and draw conclusions from
+    - **How to measure:** Get participants to interpret the data and make sure their interpretation is correct
+    - **Why:** Accurate visual representation of data is important for patients and medical decisions
+- **Alert Visibility and Accuracy**
+    - **What:** Ensure that the alerts are visible and accurate when medical thresholds are reached
+    - **How to measure:** Track the frequency of alerts and ensure that all true alerts are displayed. Also track the display time to make sure that the alert is displayed for a long enough time to be noticed
+    - **Why:** Alerts need to be easy to see and interpret. Quick response times are important for medical situations
+
 
