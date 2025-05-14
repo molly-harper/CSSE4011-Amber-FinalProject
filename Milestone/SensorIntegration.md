@@ -12,7 +12,7 @@ The following table describes the kind of data each sensor outputs, including un
 | Sensor    | Data Measured          | Units/Format     |
 |-----------|------------------------|------------------|
 | MAX30102  | Heart rate, SpO₂       | bpm, %           |
-| BME680    | Temp, Gas              | °C, ppm       |
+| BME680    | Temp, Gas              | °C, ppm          |
 | RTC       | Time                   | ISO 8601 (UTC)   | 
 
 ## How are the sensors integrated?
@@ -22,12 +22,12 @@ The following table describes the kind of data each sensor outputs, including un
 
 #### Connection Type:
 - Most sensors use **I²C** or **SPI** interfaces.
-- **UART** may be used for communication with the base node.
+- **UART** may be used for communication with the base node
 
 #### Board Integration:
 - Sensors are connected to the **Thingy52** or **nRF52840**, which collects data
-- Data is polled periodically (e.g., every **5–30 seconds**)
-- Data is **buffered and transmitted over BLE**
+- Data is periodically sampled every **second**
+- Data is buffered and transmitted over BLE
 
 #### Software Stack:
 - The system uses Zephyr libraries for task scheduling and sensor drivers.
