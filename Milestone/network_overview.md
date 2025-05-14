@@ -2,6 +2,7 @@
 - For this project all nodes will be communicating with each other using Bluetooth low energy
 - Due to the fact that very little  bidirectional communication occurs in this scenario
 ## Topology
+- This network has a logical line topology on a physical star? (or maybe mesh?) topology
 - This proposed system has 3 kinds of node
 	- A single base node
 	- Multiple mobile (mule) nodes
