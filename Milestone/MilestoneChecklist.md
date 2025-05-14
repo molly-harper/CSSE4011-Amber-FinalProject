@@ -16,7 +16,7 @@ These are all the things required for the milestone, as per the criteria. Once c
     - [] Explain what type of data is required
     - [x] Explain how the sensors are integrated
 - [] Wireless Network Communications 
-    - [] Explain the network topology or IoT protocols 
+    - [x] Explain the network topology or IoT protocols 
     - [] What protocols are used and how 
     - [] What sort of data rate is required
     - [x] Message protocol diagram
