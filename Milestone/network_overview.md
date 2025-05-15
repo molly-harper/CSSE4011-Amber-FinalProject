@@ -1,5 +1,5 @@
 ## Network protocol
-- For this project all nodes will be communicating with each other using Bluetooth low energy
+- For this project all nodes will be communicating with each other using Bluetooth low energy and a custom GATT profile
 - Due to the fact that very little  bidirectional communication occurs in this scenario
 ## Topology
 - This network has a logical line topology on a physical star? (or maybe mesh?) topology
