@@ -33,7 +33,7 @@
 **KPIs**
 - **System Throughput**
     - **What:** Can hold and display the information for various patients
-    - **How to measure:** 
+    - **How to measure:** Measure the maximum number of patient data streams that can be received, processed, and visualized in real time without system lag or data loss. Simulate multiple patients to stress test this.
     - **Why:** Allows for multiple patients to be monitored on the same system, reducing resources. 
 - **Visualisation of Data**
     - **What:** The transferred data is displayed in a way that is most appropriate to draw conclusions for that data type
@@ -41,7 +41,7 @@
     - **Why:** Raw data is harder to draw conclusions from, thus visualisation is important to efficiently and effectively identify trends. 
 - **Storage** 
     - **What:** The base node is able to store patient information for an extended duration 
-    - **How to measure:** 
+    - **How to measure:** Track data retention limits, and measure total memory/storage consumption. Evaluate system behavior under near-capacity conditions.
     - **Why:** More data allows for more accurate trends to be identified and therefore provides a better resource for identifying medical issues
 
 ## 4. Sensor Data Filtering with Kalman Filter

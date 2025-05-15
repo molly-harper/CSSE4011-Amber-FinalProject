@@ -26,7 +26,7 @@ The following table describes the kind of data each sensor outputs, including un
 
 #### Board Integration:
 - Sensors are connected to the **Thingy52** or **nRF52840**, which collects data
-- Data is periodically sampled every **second**
+- Data is periodically sampled every **5 seconds** for the patient sensors
 - Data is buffered and transmitted over BLE
 
 #### Software Stack:

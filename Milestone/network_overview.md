@@ -1,9 +1,8 @@
 ## Network protocol
-- For this project all nodes will be communicating with each other using Bluetooth low energy and a custom GATT profile and GAP with one device acting as a peripheral and the other as a central
+- For this project all nodes will be communicating with each other using Bluetooth low energy and a custom GATT profile
 - Due to the fact that very little  bidirectional communication occurs in this scenario
-- The maximum theoretical data rate for Bluetooth low energy is around 1Mbit/s. In reality this number is likely closer to 270kbit/s
 ## Topology
-- This network has a logical star topology on a physical mesh topology
+- This network has a logical line topology on a physical star? (or maybe mesh?) topology
 - This proposed system has 3 kinds of node
 	- A single base node
 	- Multiple mobile (mule) nodes
@@ -13,6 +12,12 @@
 - In response the patient node sends all the data is has saved
 - If any of the base node's known mule nodes are in range, it sends a request to whichever mule it wants to load data from and that mule node responds by sending all its data. 
 
+## Data sampling rates
+- The heart rate and SpO2 are sampled every 5 seconds
+- The temperature and gas sensors are sampled every 30 seconds
+- The RTC is synced to every data sample
+- The patient sensors will have alerts on them when sensors break thresholds
+- Upto half a days worth of data will be buffered to be transferred by the mule node to the base node
 
 ## Message Format and JSON Conversion
 A python script will run and read all the relevant information from the base node via UART, the message protocol will then appear similar to the following:
