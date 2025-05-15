@@ -1,6 +1,7 @@
 ## Network protocol
 - For this project all nodes will be communicating with each other using Bluetooth low energy and a custom GATT profile and GAP with one device acting as a peripheral and the other as a central
 - Due to the fact that very little  bidirectional communication occurs in this scenario
+- The maximum theoretical data rate for Bluetooth low energy is around 1Mbit/s. In reality this number is likely closer to 270kbit/s
 ## Topology
 - This network has a logical star topology on a physical mesh topology
 - This proposed system has 3 kinds of node
