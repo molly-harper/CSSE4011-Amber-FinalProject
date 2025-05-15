@@ -1,7 +1,7 @@
 # CSSE4011-FinalProject
 ## Team Amber Members
 - Molly Harper: s4803995
-- Noah Trevena
+- Noah Trevena: 47036321
 - Tafadzwa Chimwe 47215180
 ## Project Description
 This project implements data muling to reduce the ocmplication of data transmission. Patients are equiped with health monitoring devices that track vital signs such as heart rate, blood oxygen levels, and body temperature throughout the day. A mobile data mule, visits the stationary node with a portable device that wirelessly collects the stored data from each patient. Once the mobile node retunrs to the base node, the data is uploaded where it can be analysed to make informed healthcare decisions. This system enables continuous, low-cost health monitoring without relying on constant internet access.
