@@ -1,0 +1,13 @@
+#include <zephyr/dt-bindings/gpio/gpio.h>
+
+/ {
+    zephyr,user {
+        clock_gpios = <&gpio0 13 GPIO_ACTIVE_HIGH>;
+        data_gpios = <&gpio0 14 GPIO_ACTIVE_HIGH>;
+
+    };
+};
+
+
+// https://docs.zephyrproject.org/latest/build/dts/zephyr-user-node.html
+// This website was used in assisting me for the device tree overlay
