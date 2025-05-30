@@ -202,6 +202,7 @@ static void sample_thread(void *a, void *b, void *c)
             m[6] = 400 + (rand() % 100);  /* CO₂ */
             m[7] = rand() % 200;          /* gas/eVOC */
             m[8] = count;                 /* sequence/count */
+            push_sample(m[4]);
 
             /* 3) Send *five* copies of this same sample */
             for (int rep = 0; rep < 5; rep++) {
